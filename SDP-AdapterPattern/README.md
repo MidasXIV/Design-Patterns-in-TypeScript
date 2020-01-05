@@ -41,7 +41,12 @@ Or simply the interface or the way of calling the routine is not exactly consist
 
 There are actually two types of Adapter patterns:
 
-1. **Object Adapter pattern** : or the "**has a**" approach to implementing the adapter pattern. In this approach the adapter/wrapper class relies on one **object** of the **adaptee class**. So when a **adapter/wrapper class** object is **instantiated**, it must **instantiate a corresponding** **adaptee class** object. Anything the adapter/wrapper object is told to do will get **passed** to the **adaptee class** object. (also described as the **composition** approach.)
+1. **Object Adapter pattern** : 
+  * The **composition** approach or the "**has a**" approach to implementing the adapter pattern. 
+  * In this approach the adapter/wrapper class relies on one **object** of the **adaptee class**. 
+  * So when a **adapter/wrapper class** object is **instantiated**, it must **instantiate a corresponding** **adaptee class** object. Anything the adapter/wrapper object is told to do will get **passed** to the **adaptee class** object.
 
-2. **Class Adapter pattern** : or the "**is a**" approach to implementing the adapter pattern. In this approach we create a new class which **derives publicly** *from* our **abstract class** to define it's interface and **derives privately** *from* our **existing class** to access it's implementation.<br>
-So in simpler terms **unlike** the **Object Adapter pattern** which creates an object of the adaptee class and simply passes any function invocation to the adaptee class object, the **Class Adapter pattern** since it **extends/derives** from the adaptee class it is able to call the methods of the adaptee class from within it's new interface. (basically call adaptee class methods from it's own custom methods without an object.)
+2. **Class Adapter pattern** : 
+  * The **inheritance** approach or the "**is a**" approach to implementing the adapter pattern. 
+  * In this approach we create a new class which **derives publicly** *from* our **abstract class** to define it's interface and **derives privately** *from* our **existing class** to access it's implementation.
+  * So in simpler terms **unlike** the **Object Adapter pattern** which creates an object of the adaptee class and simply passes any function invocation to the adaptee class object, the **Class Adapter pattern** since it **extends/derives** from the adaptee class it is able to call the methods of the adaptee class from within it's new interface. (basically call adaptee class methods from it's own custom methods without an object.)
