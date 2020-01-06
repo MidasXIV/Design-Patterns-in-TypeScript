@@ -50,3 +50,18 @@ There are actually two types of Adapter patterns:
   * The **inheritance** approach or the "**is a**" approach to implementing the adapter pattern. 
   * In this approach we create a new class which **derives publicly** *from* our **abstract class** to define it's interface and **derives privately** *from* our **existing class** to access it's implementation.
   * So in simpler terms **unlike** the **Object Adapter pattern** which creates an object of the adaptee class and simply passes any function invocation to the adaptee class object, the **Class Adapter pattern** since it **extends/derives** from the adaptee class it is able to call the methods of the adaptee class from within it's new interface. (basically call adaptee class methods from it's own custom methods without an object.)
+
+***
+
+<h3 align="center">When to use Adapter pattern over <b>other patterns</b></h3>
+
+<h5 align="center">
+When there's <b>preexisting</b> classes. (client and adaptee class)<br>
+When there's a client class-interface the adapter must be designed to.
+</h5>
+
+<h6 align="center">To keep this article very simple and concise I'll try not to overload the article with other patterns.But at a very high level the <b>Facade</b> and the Adapter pattern seem similar. As they both have preexisting classes and at a high level we do create a wrapper class.<br>
+But ultimately what you should keep in mind A Facade simplifies an interface while an Adapter converts a preexisting interface into another interface.<br>
+More about Facade pattern in the next articles.</h6>
+
+***
