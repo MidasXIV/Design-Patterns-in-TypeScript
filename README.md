@@ -1,5 +1,5 @@
 <p>
-  <h1 align="center">Design Patterns in TypeScript</h1>
+  <h1 align="center">Design Patterns in TypeScript</h1> 
   <img src="https://user-images.githubusercontent.com/24829816/71424765-dbae0000-26ae-11ea-83d5-0239d9e40727.png" />
 </p>
 
@@ -13,8 +13,11 @@
   <a href="https://discord.gg/AYrsqBG">
     <img alt="Join the community on Discord"src="https://withspectrum.github.io/badge/badge.svg" />
   </a>
-  <a href="https://discord.gg/AYrsqBG"">
+  <a href="https://discord.gg/AYrsqBG">
     <img src="https://discordapp.com/api/guilds/633776704145457154/widget.png?style=shield" alt="Discord Server">
+  </a>
+  <a href="https://twitter.com/intent/tweet?text=Design%20Patterns%20in%20TypeScript%20&url=https://github.com/MidasXIV/Design-Patterns-in-TypeScript&hashtags=typescript,javascript,designpatterns,github">
+    <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
   </a>
 </p>
 
