@@ -29,6 +29,14 @@
 
 ___
 
+<h6 align="center">
+ This article assumes you are reasonably proficient in at least one object-oriented programming language, and you should have some experience in object-oriented design as well. You definitely shouldn't have to rush to the nearest dictionary the moment we mention "<b>types</b>" and "<b>polymorphism</b>," or "<b>interface</b>" as opposed to "<b>implementation/<b>” inheritance.
+ <br>But I'll try to keep the literature as simple as possible.
+ <br><br>Don't worry if you don’t understand this article completely on the first reading. We didn’t understand it all on the first writing! Remember that this isn't an article to read once and forget it. We hope you'll find yourself referring to it again and again for design insights and for inspiration.
+</h6>
+
+___
+
 <p>
   <h2 align="center">Creational Design Patterns</h1>
 </p>
@@ -42,6 +50,14 @@ ___
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Singleton](https://classroom.udacity.com/courses/ud187) <h6>In Ensures that only one object of a particular class is ever created.<br>Singleton pattern is a software design pattern that restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system.</h6>  |
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Object Pool Design Pattern](https://classroom.udacity.com/courses/ud187) <h6>Object pools are used to manage the object caching.<br>Avoid expensive acquisition and release of resources by recycling objects that are no longer in use.</h6>  |
 
+___
+
+
+### Conclusion
+
+> Once you understand the design patterns and have had an "**Aha!**" (and not just a "Huh?") experience with them, you won't ever think about object-oriented design in the same way.
+
+The intent of this Article is provide you with insights that can make your own designs more flexible, modular, reusable, and understandable.
 ___
 
 ### Credits
