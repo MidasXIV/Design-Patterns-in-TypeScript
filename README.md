@@ -30,7 +30,7 @@
 ___
 
 <h6 align="center">
- This article assumes you are reasonably proficient in at least one object-oriented programming language, and you should have some experience in object-oriented design as well. You definitely shouldn't have to rush to the nearest dictionary the moment we mention "<b>types</b>" and "<b>polymorphism</b>," or "<b>interface</b>" as opposed to "<b>implementation/<b>” inheritance.
+ This article assumes you are reasonably proficient in at least one object-oriented programming language, and you should have some experience in object-oriented design as well. You definitely shouldn't have to rush to the nearest dictionary the moment we mention "<b>types</b>" and "<b>polymorphism</b>," or "<b>interface</b>" as opposed to "<b>implementation / inheritance<b>”.
  <br>But I'll try to keep the literature as simple as possible.
  <br><br>Don't worry if you don’t understand this article completely on the first reading. We didn’t understand it all on the first writing! Remember that this isn't an article to read once and forget it. We hope you'll find yourself referring to it again and again for design insights and for inspiration.
 </h6>
@@ -41,13 +41,25 @@ ___
   <h2 align="center">Creational Design Patterns</h1>
 </p>
 
+<img align="left" width="200" src="https://user-images.githubusercontent.com/24829816/72103829-7b23f180-3343-11ea-8dd0-c90eae4903b9.png">
+
+> Creational Design Patterns are concerned with the way in which objects are created.
+
+<h6>
+  Creational design patterns abstract the instantiation process, meaning construction of objects is decoupled from their implementation logic.<br>
+  They help make a system independent of how its objects are created,composed, and represented.<br>
+  Encapsulate knowledge about which concreate classes the system uses.<br>
+  Hide how instances of these classes are created and put together.<br><br>
+  <b>Note :</b> A class creational pattern uses inheritance to vary the class that's instantiated, where as an object creational pattern will delegate instantiation to another object.
+</h6>
+
 | Thumbnail       | Design Pattern                                                                   |
 | :-------------: | :------------------------------------------------------------------------------- |
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Factory Method](https://classroom.udacity.com/courses/ud187) <h6>The factory pattern takes out the responsibility of instantiating a object from the class to a Factory class.<br>Creates an instance of several derived classes.</h6>  |
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Abstract Factory](https://classroom.udacity.com/courses/ud187) <h6>Allows us to create a Factory for factory classes.<br>The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.</h6>  |
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Builder](https://classroom.udacity.com/courses/ud187) <h6>Creating an object step by step and a method to finally get the object instance.<br>Allows you to create different flavors of an object while avoiding constructor pollution. Useful when there could be several flavors of an object. Or when there are a lot of steps involved in creation of an object.</h6>  |
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Prototype](https://classroom.udacity.com/courses/ud187) <h6>Create object based on an existing object through cloning.<br>	Creating a new object instance from another similar instance and then modify according to our requirements.</h6>  |
-| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Singleton](https://classroom.udacity.com/courses/ud187) <h6>In Ensures that only one object of a particular class is ever created.<br>Singleton pattern is a software design pattern that restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Singleton](https://classroom.udacity.com/courses/ud187) <h6>In Ensures a class has only one instance and provide a global point of access to it.<br>Singleton pattern is a software design pattern that restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system.</h6>  |
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Object Pool Design Pattern](https://classroom.udacity.com/courses/ud187) <h6>Object pools are used to manage the object caching.<br>Avoid expensive acquisition and release of resources by recycling objects that are no longer in use.</h6>  |
 
 ___
