@@ -73,6 +73,26 @@ ___
 
 ___
 
+<p>
+  <h2 align="center">Behavioral Design Patterns</h1>
+</p>
+
+| Thumbnail       | Design Pattern                                                                   |
+| :-------------: | :------------------------------------------------------------------------------- |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Template Method](https://classroom.udacity.com/courses/ud187) <h6>	used to create a template method stub and defer some of the steps of implementation to the subclasses.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Mediator](https://classroom.udacity.com/courses/ud187) <h6>used to provide a centralized communication medium between different objects in a system.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Chain of Responsibility](https://classroom.udacity.com/courses/ud187) <h6>	used to achieve loose coupling in software design where a request from the client is passed to a chain of objects to process them.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Observer](https://classroom.udacity.com/courses/ud187) <h6>	useful when you are interested in the state of an object and want to get notified whenever there is any change.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Strategy](https://classroom.udacity.com/courses/ud187) <h6>	Strategy pattern is used when we have multiple algorithm for a specific task and client decides the actual implementation to be used at runtime.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Command](https://classroom.udacity.com/courses/ud187) <h6>	Command Pattern is used to implement lose coupling in a request-response model.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [State](https://classroom.udacity.com/courses/ud187) <h6>	State design pattern is used when an Object change it’s behavior based on it’s internal state.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Visitor](https://classroom.udacity.com/courses/ud187) <h6>	Visitor pattern is used when we have to perform an operation on a group of similar kind of Objects.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Interpreter](https://classroom.udacity.com/courses/ud187) <h6>	defines a grammatical representation for a language and provides an interpreter to deal with this grammar.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Iterator](https://classroom.udacity.com/courses/ud187) <h6>	used to provide a standard way to traverse through a group of Objects.</h6>  |
+| <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Memento](https://classroom.udacity.com/courses/ud187) <h6>	The memento design pattern is used when we want to save the state of an object so that we can restore later on.</h6>  |
+
+___
+
 
 ### Conclusion
 
