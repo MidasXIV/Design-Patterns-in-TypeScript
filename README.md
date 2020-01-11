@@ -74,6 +74,20 @@ ___
   <h2 align="center">Structural design patterns</h1>
 </p>
 
+<img align="left" width="200" src="https://user-images.githubusercontent.com/24829816/72209505-6ae94f00-34c8-11ea-996b-c215e4be7e17.png">
+
+> Structural patterns are mostly concerned with object composition or in other words how the entities can use each other. Or yet another explanation would be, they help in answering "How to build a software component?"
+
+<h6>
+  Structural patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.<br>
+  A structural design pattern serves as a blueprint for how different classes and objects are combined to form larger structures. Unlike creational patterns, which are mostly different ways to fulfill the same fundamental purpose, each structural pattern has a different purpose.
+<br>
+</h6>
+
+<details>
+  <summary>Creational Design patterns Table</summary>
+  <Br>
+   
 | Thumbnail       | Design Pattern                                                                   |
 | :-------------: | :------------------------------------------------------------------------------- |
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Adapter](https://classroom.udacity.com/courses/ud187) <h6>Provides an interface between two unrelated entities so that they can work together.</h6>  |
@@ -84,6 +98,8 @@ ___
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Bridge](https://classroom.udacity.com/courses/ud187) <h6>	The bridge design pattern is used to decouple the interfaces from implementation and hiding the implementation details from the client program.</h6>  |
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Decorator](https://classroom.udacity.com/courses/ud187) <h6>	The decorator design pattern is used to modify the functionality of an object at runtime.</h6>  |
 
+</details>
+  
 ___
 
 <p>
