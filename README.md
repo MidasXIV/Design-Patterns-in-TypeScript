@@ -54,7 +54,7 @@ ___
 </h6>
 
 <details>
-  <summary>Creational Design pattern</summary>
+  <summary>Creational Design patterns Table</summary>
   <Br>
     
 | Thumbnail       | Design Pattern                                                                   |
@@ -68,7 +68,7 @@ ___
 
 </details>
 
-___
+***
 
 <p>
   <h2 align="center">Structural design patterns</h1>
@@ -90,6 +90,19 @@ ___
   <h2 align="center">Behavioral Design Patterns</h1>
 </p>
 
+<img align="left" width="200" src="https://user-images.githubusercontent.com/24829816/72209227-7be49100-34c5-11ea-939b-009fccdf77b5.png">
+
+> Behavioral design patterns are concerned with algorithms and the assignment of responsibilities between objects.
+
+<h6>
+  Behavioral Design Patterns identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.<br>
+  What makes them different from structural patterns is they don't just specify the structure but also outline the patterns for message passing/communication between them. Or in other words, they assist in answering "How to run a behavior in software component?"<br>
+</h6>
+
+<details>
+  <summary>Behavioral Design patterns Table</summary>
+  <Br>
+    
 | Thumbnail       | Design Pattern                                                                   |
 | :-------------: | :------------------------------------------------------------------------------- |
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Template Method](https://classroom.udacity.com/courses/ud187) <h6>	used to create a template method stub and defer some of the steps of implementation to the subclasses.</h6>  |
@@ -104,9 +117,11 @@ ___
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Iterator](https://classroom.udacity.com/courses/ud187) <h6>	used to provide a standard way to traverse through a group of Objects.</h6>  |
 | <img src="https://images.squarespace-cdn.com/content/5108795ce4b04beb3ec2886e/1550776903598-G2JSY8UJ22MJG86HNPOV/udacity-logo.jpg?format=500w&content-type=image%2Fjpeg" alt="Udacity" width="150"/>| [Memento](https://classroom.udacity.com/courses/ud187) <h6>	The memento design pattern is used when we want to save the state of an object so that we can restore later on.</h6>  |
 
+</details>
+
 ___
 
-
+<br><br>
 ### Conclusion
 
 > Once you understand the design patterns and have had an "**Aha!**" (and not just a "Huh?") experience with them, you won't ever think about object-oriented design in the same way.
