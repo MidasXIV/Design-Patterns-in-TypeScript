@@ -4,9 +4,9 @@
 </p>
 
 <p align="center">
-  <a href="#features">Creational Design Patterns</a> |
-  <a href="#installation">Structural Design Patterns</a> |
-  <a href="#getting-started">Behavioral Design Patterns</a>
+  <a href="creational-design-patterns">Creational Design Patterns</a> |
+  <a href="#structural-design-patterns">Structural Design Patterns</a> |
+  <a href="#behavioral-design-patterns">Behavioral Design Patterns</a>
 </p>
 
 <p align="center">
@@ -70,6 +70,7 @@ ___
 
 ***
 
+<Br><br>
 <p>
   <h2 align="center">Structural design patterns</h1>
 </p>
@@ -85,7 +86,7 @@ ___
 </h6>
 
 <details>
-  <summary>Creational Design patterns Table</summary>
+  <summary>Structural Design patterns Table</summary>
   <Br>
    
 | Thumbnail       | Design Pattern                                                                   |
@@ -102,6 +103,7 @@ ___
   
 ___
 
+<Br><br>
 <p>
   <h2 align="center">Behavioral Design Patterns</h1>
 </p>
