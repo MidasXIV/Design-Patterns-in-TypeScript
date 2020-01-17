@@ -38,6 +38,30 @@ ___
 ___
 
 <p>
+  <h2 align="center">Object-Oriented Terminology</h1>
+</p>
+
+| <h4>Term</h4>  | <h6>Definition</h6>                                                          |
+| :------------: | :--------------------------------------------------------------------------- |
+| <h4>Abstract class</h4> | <h6>Defines the methods and common attributes of a set of classes that are conceptually similar. Abstract classes are never instantiated.</h6>| 
+| <h4>Attribute</h4>      | <h6>Data associated with an object (also called a data member).</h6>|
+| <h4>Class</h4>          | <h6>Blueprint of an object—defines the methods and data of an object of its type.</h6>|
+| <h4>Constructor</h4>    | <h6>Special method that is invoked when an object is created.</h6>|
+| <h4>Encapsulation</h4>  | <h6>Any kind of hiding. Objects encapsulate their data. Abstract classes encapsulate their derived concrete classes.</h6>|
+| <h4>Derived class</h4>  | <h6>A class that is specialized from a superclass. Contains all of the attributes and methods of the superclass but may also contain other attributes or dif-ferent method implementations.</h6>|
+| <h4>Destructor</h4>     | <h6>Special method that is invoked when an object is deleted.</h6>|
+| <h4>Functional decomposition</h4> | <h6>A method of analysis in which a problem is broken into smaller and smaller functions.</h6>|
+| <h4>Inheritance</h4>   | <h6>The way that a class is specialized, used to relate derived classes from their abstractions.</h6>| 
+| <h4>Instance</h4>      | <h6>A particular object of a class.</h6>|
+| <h4>Instantiation</h4> | <h6>The process of creating an instance of a class.MemberEither data or method of a class.</h6>|
+| <h4>Method</h4>        | <h6>Functions that are associated with an object.</h6>|
+| <h4>Object</h4>        | <h6>An entity with responsibilities. A special, self-contained holder of both data and methods that operate on that data. An object’s data are protected from external objects.</h6>| 
+| <h4>Polymorphism</h4>  | <h6>The ability of related objects to implement methods that are specialized to their type.</h6>|
+| <h4>Superclass</h4>    | <h6>A class from which other classes are derived. Contains the master definitions of attributes and methods that all derived classes will use (and possibly will override).</h6>|
+
+___
+
+<p>
   <h2 align="center">Creational Design Patterns</h1>
 </p>
 
