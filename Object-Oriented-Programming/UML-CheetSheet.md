@@ -1,12 +1,19 @@
+<p>
+  <h1 align="center">Unified Modeling Language</h1> 
+  <img src="https://user-images.githubusercontent.com/24829816/72670081-b9f82c80-3a52-11ea-91d1-c575ee525f67.png" />
+</p>
+
 > UML, short for Unified Modeling Language, is a visual language filled with drawing notation and semantics used to create models of programs. UML is used to express the design of software Designs, patterns and architecture.
 
 ***
 
-# Why to Learn UML
+## Why to Learn UML
 
 * The UML is not only a better way of describing object-oriented designs. It also forces the designer to think through the relationships between classes in their approach as it needs to be written.
 
 * Complex applications need collaboration and planning from multiple teams and hence require a clear and concise way to communicate among them.
+
+***
 
 ## Unified Modelling language - Basics
 
@@ -25,8 +32,6 @@
 | `Members of the same class` | `yes`      |`yes`          |	`yes`        |	`yes`        |
 | `Members of derived classes`| `yes`      |`no`           |	`yes`        |	`yes`        |
 | `Members of any other class`| `yes`      |`no`           |	`no`         |	`in same package` |
-
-![class](https://user-images.githubusercontent.com/24829816/72670081-b9f82c80-3a52-11ea-91d1-c575ee525f67.png)
 
 ***
 
