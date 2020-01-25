@@ -17,6 +17,15 @@
 
 ## Unified Modelling language - Basics
 
+### :arrow_right: Abstract Class
+
+<img align="left" src="https://www.plantuml.com/plantuml/img/FOv12eD034NtSuf0DnRf7PGUmLLNGve95XexagGhyUuThSxVlHV8_vqvgdyd2VWqLoG74ZI3Eoei0KfQW4XPikvqWJZbn581t_nW_1zl46rcJZiSPjWAcckbF5VeYOGLdG-pd1jMe1VgUFeMHlPXUrp46Zh-fBBu1m00">
+
+> Abstract class is a class which may have some unimplemented methods. These methods are called abstract methods. We can't create an instance of an abstract class. But other classes can be derived from abstract class and reuse the functionality of base class.<br>
+* Abstract keyword before the method name.
+* Abstract method does not have any implementation.
+
+
 ### :arrow_right: Class Diagram
 
 <h6>A class is depicted as a rectangle with the class name in bold. Any data that the class defines comes after the class name. Operations appear in normal type below the class attributes. Lines separate the class name from the operations and the operations from the data.</h6>
