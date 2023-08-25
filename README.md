@@ -1,6 +1,6 @@
 <p>
   <h1 align="center">Design Patterns in TypeScript</h1> 
-  <img src="https://user-images.githubusercontent.com/24829816/71924346-3e6fc300-31a8-11ea-8291-158e5afba3f7.png" />
+  <img src="https://github.com/MidasXIV/Design-Patterns-in-TypeScript/assets/24829816/7c730c6d-1705-4351-bf5a-54346791dc63" />
 </p>
 
 <p align="center">
